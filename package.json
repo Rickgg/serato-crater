@@ -1,6 +1,6 @@
 {
 	"name": "serato-crater",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Reads a Serato crate file and returns columns and songs",
 	"license": "MIT",
 	"repository": "Rickgg/serato-crater",
