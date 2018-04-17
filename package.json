@@ -20,8 +20,14 @@
 			"^.+\\.jsx?$": "babel-jest"
 		}
 	},
-	"files": ["index.js"],
-	"keywords": ["Serato", "DJ", "Crate"],
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"Serato",
+		"DJ",
+		"Crate"
+	],
 	"dependencies": {
 		"path-type": "^3.0.0"
 	},
