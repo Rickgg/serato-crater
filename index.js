@@ -95,6 +95,8 @@ module.exports = fp => {
 			crate.songs = processSongs(crateFile);
 
 			return crate;
+		} else {
+			throw "Path is a directory or can't be found.";
 		}
 	});
 };
@@ -113,5 +115,7 @@ module.exports.sync = fp => {
 		crate.songs = processSongs(crateFile);
 
 		return crate;
+	} else {
+		throw "Path is a directory or can't be found.";
 	}
 };
